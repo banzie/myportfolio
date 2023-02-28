@@ -1,0 +1,172 @@
+@import "globals.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',sans-serif !important;
+    height: 100%;
+}
+/* heading section */
+#scroll-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.heading-padding{
+    padding-bottom: 12%;
+}
+.nav-item{
+    padding: 0px 15px 0px 0px;
+}
+.navbar{
+    padding: 0px 0px 50px 0px !important;
+}
+.scroll-btn{
+    position: fixed;
+    bottom: 75px;
+    right: 40px;
+}
+.img-1{
+    border-radius: 2px;
+    margin-left: 150px;
+    box-shadow: 10px 10px 5px #ef515e;
+}
+.hr-dotted-left{
+    border-top: 8px solid #ef515e;
+    width: 90px;
+    margin: 0px;
+}
+.hr-dotted-center{
+    border-top: 8px solid #ef515e;
+    width: 90px;
+}
+/* about section */
+.img-2{
+    width: 90%;
+    height: 860px;
+    border-radius: 2px;
+    box-shadow: -10px 10px 5px #ef515e;
+}
+/* projects section */
+#projects{
+    text-align: center;
+}
+.project-img{
+    margin-top: 25px;
+    width:70%;
+}
+.carousel-text{
+    margin-top: 40px;
+}
+.btn,.btn-carousel{
+    border-radius: 24px !important;
+    padding: 9px 25px 9px 25px !important;
+    margin: 5px 20px 10px 5px;
+}
+.btn-projects{
+    margin: 5px 20px 10px 5px;
+}
+
+.btn-red{
+    background-color: #18191b;
+    border-color:#18191b;
+}
+.btn-green{
+    background-color:  #f8fefc;
+    border-color:  #f8fefc;
+}
+/* contacts section */
+.btn-instagram{
+    background-color: #d53876;
+    border-color: #d53876;
+}
+/* media queries  */
+@media (max-width: 1080px){
+    #heading{
+       text-align: center;
+     } 
+    #scroll-top{
+       display: none;
+     }
+     .hr-dotted-left{
+        margin: auto auto auto auto !important;
+    }
+    .img2-container, .img1-container{
+        text-align: center;
+    }
+    .btn-carousel{
+       display: none;
+    }
+    .about-caption{
+        text-align: center;
+    }
+   .name-heading{
+       font-size: 3.5rem;
+   }
+   .about-heading, .project-heading{
+    font-size: 2.5rem;
+   }
+   .img-1{
+       margin: 80px 0px 110px 0px;
+       width: 30%;
+   }
+   .img-2{
+       width: 80%;
+       height: auto;
+   }
+   .nav-item, .btn-contacts{
+    margin: 20px 10px 15px 0px;
+   }
+}
+@media (max-width: 600px){
+    .nav-item{
+        font-size: 1rem !important;
+    }
+    .carousel-wide{
+        width: 300px;
+    }
+    .img-1{
+        margin: 30px 0px 110px 0px;
+    }
+    .mobile-left{
+        text-align: left;
+    }
+}
+@media (max-width: 450px){
+    .img-1{
+        margin: 30px 0px 110px 0px;
+    }
+    .btn-green{
+        margin-top: 14px;
+        margin-bottom: 20px;
+    }
+    .about-caption-heading{
+        font-size: 2.2rem;
+    }
+    .name-heading{
+        font-size: 2.5rem;
+    }
+    .about-heading, .project-heading{
+     font-size: 2.5rem;
+    }
+    .mobile-left{
+        text-align: left;
+    }
+}
+@-moz-document url-prefix() {
+    .img-2{
+        width: 80%;
+        height: auto;      
+    }
+    .img1{
+       margin-left: 150px;
+    }
+    .small-margin-top{
+        margin: 100px 0px 0px 0px;
+      }
+  }
+
+
