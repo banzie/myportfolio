@@ -31,7 +31,7 @@ body{
 }
 .img-1{
     border-radius: 2px;
-    margin-left: 150px;
+    margin-left: 130px;
     box-shadow: 10px 10px 5px #ef515e;
 }
 .hr-dotted-left{
@@ -110,7 +110,7 @@ body{
     font-size: 2.5rem;
    }
    .img-1{
-       margin: 80px 0px 110px 0px;
+       margin: 80px 0px 30px 0px;
        width: 30%;
    }
    .img-2{
